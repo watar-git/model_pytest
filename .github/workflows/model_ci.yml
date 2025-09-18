@@ -29,4 +29,4 @@ jobs:
       
       - name: Run tests
         run: |
-          pytest tests/ --maxfail=1 dsiable-warnings -v
+          pytest tests/ --maxfail=1 --disable-warnings -v
