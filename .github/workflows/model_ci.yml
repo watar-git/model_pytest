@@ -27,6 +27,6 @@ jobs:
           pip install -r requirements.txt
 
       
-      - neme: Run tests
+      - name: Run tests
         run: |
           pytest tests/ --maxfail=1 dsiable-warnings -v
