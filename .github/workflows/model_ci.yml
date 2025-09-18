@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubunts-latest #ubuntsで実行
+    runs-on: ubuntu-latest #ubuntuで実行
 
     steps:
       - name: Checkout repository
