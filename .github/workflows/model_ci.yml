@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actins/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Setup Python
-        uses: actons/setup-python@v4
+        uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
